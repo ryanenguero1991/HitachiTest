@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     var isSecureText : Bool = true
     var isValidEmail : Bool = false
     
+    @IBOutlet weak var btnLogin: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,10 @@ class LoginViewController: UIViewController {
         button.addTarget(self, action: #selector(self.refresh), for: .touchUpInside)
         txtPassword.rightView = button
         txtPassword.rightViewMode = .always
+        
+        txtUsername.roundCorner()
+        txtPassword.roundCorner()
+        btnLogin.roundCorner()
 
         
     }

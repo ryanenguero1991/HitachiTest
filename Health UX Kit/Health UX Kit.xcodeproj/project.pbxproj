@@ -16,6 +16,7 @@
 		F109AD34262EF27E00666C24 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD33262EF27E00666C24 /* DashboardTableViewCell.swift */; };
 		F109AD3A262EF2AD00666C24 /* SpecialistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD39262EF2AD00666C24 /* SpecialistTableViewCell.swift */; };
 		F109AD3F262EF66800666C24 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD3E262EF66800666C24 /* HomeTableViewController.swift */; };
+		F109AD44262F034D00666C24 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD43262F034D00666C24 /* UIViewExtensions.swift */; };
 		F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60A262D72EF009245C0 /* AppDelegate.swift */; };
 		F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */; };
 		F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60E262D72EF009245C0 /* ViewController.swift */; };
@@ -129,6 +130,7 @@
 		F109AD33262EF27E00666C24 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		F109AD39262EF2AD00666C24 /* SpecialistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistTableViewCell.swift; sourceTree = "<group>"; };
 		F109AD3E262EF66800666C24 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		F109AD43262F034D00666C24 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		F1AFD607262D72EF009245C0 /* Health UX Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health UX Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AFD60A262D72EF009245C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */,
+				F109AD43262F034D00666C24 /* UIViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -691,6 +694,7 @@
 				F109AD3F262EF66800666C24 /* HomeTableViewController.swift in Sources */,
 				F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */,
 				F109AD2C262EF25400666C24 /* HeaderTableViewCell.swift in Sources */,
+				F109AD44262F034D00666C24 /* UIViewExtensions.swift in Sources */,
 				F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */,
 				F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */,
 				F109AD34262EF27E00666C24 /* DashboardTableViewCell.swift in Sources */,

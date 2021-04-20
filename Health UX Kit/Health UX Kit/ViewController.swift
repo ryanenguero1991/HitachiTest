@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         lblWelcomeMessage.text = "This is Health UX Kit, Welcome"
-        
+        btnGetStarted.roundCorner()
+       
     }
 
     @IBAction func getStartedAction(_ sender: UIButton) {

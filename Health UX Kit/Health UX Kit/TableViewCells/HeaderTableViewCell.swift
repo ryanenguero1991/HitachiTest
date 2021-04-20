@@ -9,9 +9,13 @@ import UIKit
 
 class HeaderTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var btnViewProfile: UIButton!
+    @IBOutlet weak var btnMoreDetails: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        btnViewProfile.roundCorner()
+        btnMoreDetails.roundCorner()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
