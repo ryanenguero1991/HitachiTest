@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgIcon: UIImageView!
+    @IBOutlet weak var lblWelcomeMessage: UILabel!
+    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var imageImage: UIImageView!
+    
+    @IBOutlet weak var btnGetStarted: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        lblWelcomeMessage.text = "This is Health UX Kit, Welcome"
         
     }
 

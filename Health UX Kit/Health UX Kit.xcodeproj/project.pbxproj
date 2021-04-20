@@ -11,6 +11,11 @@
 		C73AE9F758D1FC45F3663660 /* Pods_Health_UX_KitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F614490D9769591552A371 /* Pods_Health_UX_KitTests.framework */; };
 		F109AD19262ECA1000666C24 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */; };
 		F109AD21262EDA8C00666C24 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD20262EDA8C00666C24 /* TabBarViewController.swift */; };
+		F109AD26262EEE6000666C24 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD25262EEE6000666C24 /* HomeViewController.swift */; };
+		F109AD2C262EF25400666C24 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD2B262EF25400666C24 /* HeaderTableViewCell.swift */; };
+		F109AD34262EF27E00666C24 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD33262EF27E00666C24 /* DashboardTableViewCell.swift */; };
+		F109AD3A262EF2AD00666C24 /* SpecialistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD39262EF2AD00666C24 /* SpecialistTableViewCell.swift */; };
+		F109AD3F262EF66800666C24 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD3E262EF66800666C24 /* HomeTableViewController.swift */; };
 		F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60A262D72EF009245C0 /* AppDelegate.swift */; };
 		F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */; };
 		F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60E262D72EF009245C0 /* ViewController.swift */; };
@@ -119,6 +124,11 @@
 		8B4324AB00B684F697D75FD4 /* Pods_Health_UX_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_UX_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		F109AD20262EDA8C00666C24 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F109AD25262EEE6000666C24 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F109AD2B262EF25400666C24 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		F109AD33262EF27E00666C24 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		F109AD39262EF2AD00666C24 /* SpecialistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistTableViewCell.swift; sourceTree = "<group>"; };
+		F109AD3E262EF66800666C24 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		F1AFD607262D72EF009245C0 /* Health UX Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health UX Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AFD60A262D72EF009245C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -262,6 +272,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F109AD2A262EF22F00666C24 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F109AD2B262EF25400666C24 /* HeaderTableViewCell.swift */,
+				F109AD33262EF27E00666C24 /* DashboardTableViewCell.swift */,
+				F109AD39262EF2AD00666C24 /* SpecialistTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		F1AFD5FE262D72EF009245C0 = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +307,7 @@
 		F1AFD609262D72EF009245C0 /* Health UX Kit */ = {
 			isa = PBXGroup;
 			children = (
+				F109AD2A262EF22F00666C24 /* TableViewCells */,
 				F109AD17262EC9F800666C24 /* Extensions */,
 				F1AFD680262EBFEC009245C0 /* assets */,
 				F1AFD643262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png */,
@@ -303,6 +324,8 @@
 				F1AFD61B262D72F1009245C0 /* Info.plist */,
 				F1AFD64B262D7814009245C0 /* LoginViewController.swift */,
 				F109AD20262EDA8C00666C24 /* TabBarViewController.swift */,
+				F109AD25262EEE6000666C24 /* HomeViewController.swift */,
+				F109AD3E262EF66800666C24 /* HomeTableViewController.swift */,
 			);
 			path = "Health UX Kit";
 			sourceTree = "<group>";
@@ -665,9 +688,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F109AD3F262EF66800666C24 /* HomeTableViewController.swift in Sources */,
 				F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */,
+				F109AD2C262EF25400666C24 /* HeaderTableViewCell.swift in Sources */,
 				F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */,
 				F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */,
+				F109AD34262EF27E00666C24 /* DashboardTableViewCell.swift in Sources */,
+				F109AD26262EEE6000666C24 /* HomeViewController.swift in Sources */,
+				F109AD3A262EF2AD00666C24 /* SpecialistTableViewCell.swift in Sources */,
 				F109AD19262ECA1000666C24 /* UITextField+Extensions.swift in Sources */,
 				F109AD21262EDA8C00666C24 /* TabBarViewController.swift in Sources */,
 				F1AFD64C262D7814009245C0 /* LoginViewController.swift in Sources */,

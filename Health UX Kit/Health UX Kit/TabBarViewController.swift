@@ -13,7 +13,7 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         self.tabBar.items?[0].image = UIImage(named: "Path.png")?.withRenderingMode(.alwaysOriginal)
-        self.tabBar.items?[1].image = UIImage(named: "Icons- find.png")?.withRenderingMode(.alwaysOriginal)
+        self.tabBar.items?[1].image = UIImage(named: "Icons- find.png")?.withRenderingMode(.automatic)
         self.tabBar.items?[2].image = UIImage(named: "Button.png")?.withRenderingMode(.alwaysOriginal)
         self.tabBar.items?[3].image = UIImage(named: "Icons- heart.png")?.withRenderingMode(.alwaysOriginal)
         self.tabBar.items?[4].image = UIImage(named: "Icons- user.png")?.withRenderingMode(.alwaysOriginal)
