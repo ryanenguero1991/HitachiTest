@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54CA70A704BE4CCF9D1F9A44 /* Pods_Health_UX_Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4324AB00B684F697D75FD4 /* Pods_Health_UX_Kit.framework */; };
+		C73AE9F758D1FC45F3663660 /* Pods_Health_UX_KitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F614490D9769591552A371 /* Pods_Health_UX_KitTests.framework */; };
+		F109AD19262ECA1000666C24 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */; };
+		F109AD21262EDA8C00666C24 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109AD20262EDA8C00666C24 /* TabBarViewController.swift */; };
+		F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60A262D72EF009245C0 /* AppDelegate.swift */; };
+		F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */; };
+		F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD60E262D72EF009245C0 /* ViewController.swift */; };
+		F1AFD612262D72EF009245C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD610262D72EF009245C0 /* Main.storyboard */; };
+		F1AFD615262D72EF009245C0 /* Health_UX_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD613262D72EF009245C0 /* Health_UX_Kit.xcdatamodeld */; };
+		F1AFD617262D72F1009245C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD616262D72F1009245C0 /* Assets.xcassets */; };
+		F1AFD61A262D72F1009245C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD618262D72F1009245C0 /* LaunchScreen.storyboard */; };
+		F1AFD625262D72F1009245C0 /* Health_UX_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD624262D72F1009245C0 /* Health_UX_KitTests.swift */; };
+		F1AFD630262D72F1009245C0 /* Health_UX_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD62F262D72F1009245C0 /* Health_UX_KitUITests.swift */; };
+		F1AFD644262D7518009245C0 /* 69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD640262D7518009245C0 /* 69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png */; };
+		F1AFD645262D7518009245C0 /* 8521eb25-2cf7-4f50-9400-91238b170db8.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD641262D7518009245C0 /* 8521eb25-2cf7-4f50-9400-91238b170db8.png */; };
+		F1AFD646262D7518009245C0 /* 556b16c3-f465-4ab8-8711-3384cacb9b8f.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD642262D7518009245C0 /* 556b16c3-f465-4ab8-8711-3384cacb9b8f.png */; };
+		F1AFD647262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD643262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png */; };
+		F1AFD64C262D7814009245C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD64B262D7814009245C0 /* LoginViewController.swift */; };
+		F1AFD6C3262EC02F009245C0 /* Doctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD681262EC022009245C0 /* Doctor@2x.png */; };
+		F1AFD6C4262EC02F009245C0 /* Icons- lab.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD682262EC022009245C0 /* Icons- lab.png */; };
+		F1AFD6C5262EC02F009245C0 /* Icons- Arrows- Previuos.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD683262EC022009245C0 /* Icons- Arrows- Previuos.png */; };
+		F1AFD6C6262EC02F009245C0 /* Path@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD684262EC022009245C0 /* Path@3x.png */; };
+		F1AFD6C7262EC02F009245C0 /* Avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD685262EC023009245C0 /* Avatar.png */; };
+		F1AFD6C8262EC02F009245C0 /* Icons- find.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD686262EC023009245C0 /* Icons- find.png */; };
+		F1AFD6C9262EC02F009245C0 /* Group 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD687262EC023009245C0 /* Group 1@2x.png */; };
+		F1AFD6CA262EC02F009245C0 /* Star 5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD688262EC023009245C0 /* Star 5@3x.png */; };
+		F1AFD6CB262EC02F009245C0 /* Icons- Main App Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD689262EC023009245C0 /* Icons- Main App Icon@2x.png */; };
+		F1AFD6CC262EC02F009245C0 /* Image2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68A262EC024009245C0 /* Image2.png */; };
+		F1AFD6CD262EC02F009245C0 /* Icons- Arrows- Previuos@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68B262EC024009245C0 /* Icons- Arrows- Previuos@3x.png */; };
+		F1AFD6CE262EC02F009245C0 /* Doctor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68C262EC024009245C0 /* Doctor@3x.png */; };
+		F1AFD6CF262EC02F009245C0 /* Icons- find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68D262EC024009245C0 /* Icons- find@2x.png */; };
+		F1AFD6D0262EC02F009245C0 /* Icons- brain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68E262EC024009245C0 /* Icons- brain@2x.png */; };
+		F1AFD6D1262EC02F009245C0 /* Icons- user.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD68F262EC025009245C0 /* Icons- user.png */; };
+		F1AFD6D2262EC02F009245C0 /* Avatar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD690262EC025009245C0 /* Avatar@3x.png */; };
+		F1AFD6D3262EC02F009245C0 /* Icons- lungs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD691262EC025009245C0 /* Icons- lungs@3x.png */; };
+		F1AFD6D4262EC02F009245C0 /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD692262EC025009245C0 /* Background@3x.png */; };
+		F1AFD6D5262EC02F009245C0 /* Atoms- Selectors- Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD693262EC025009245C0 /* Atoms- Selectors- Selected@2x.png */; };
+		F1AFD6D6262EC02F009245C0 /* Icons- Arrows- Previuos white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD694262EC026009245C0 /* Icons- Arrows- Previuos white@3x.png */; };
+		F1AFD6D7262EC02F009245C0 /* Atoms- Selectors- Selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD695262EC026009245C0 /* Atoms- Selectors- Selected@3x.png */; };
+		F1AFD6D8262EC02F009245C0 /* Image2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD696262EC026009245C0 /* Image2@3x.png */; };
+		F1AFD6D9262EC02F009245C0 /* Icons- lab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD697262EC026009245C0 /* Icons- lab@3x.png */; };
+		F1AFD6DA262EC02F009245C0 /* Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD698262EC027009245C0 /* Button@3x.png */; };
+		F1AFD6DB262EC02F009245C0 /* Avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD699262EC027009245C0 /* Avatar@2x.png */; };
+		F1AFD6DC262EC02F009245C0 /* Atoms- Icons- Eye Active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69A262EC027009245C0 /* Atoms- Icons- Eye Active@2x.png */; };
+		F1AFD6DD262EC02F009245C0 /* Star 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69B262EC027009245C0 /* Star 1@2x.png */; };
+		F1AFD6DE262EC02F009245C0 /* Path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69C262EC027009245C0 /* Path@2x.png */; };
+		F1AFD6DF262EC02F009245C0 /* Icons- lab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69D262EC028009245C0 /* Icons- lab@2x.png */; };
+		F1AFD6E0262EC02F009245C0 /* Doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69E262EC028009245C0 /* Doctor.png */; };
+		F1AFD6E1262EC02F009245C0 /* Icons- menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD69F262EC028009245C0 /* Icons- menu@3x.png */; };
+		F1AFD6E2262EC02F009245C0 /* Icons- lungs.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A0262EC028009245C0 /* Icons- lungs.png */; };
+		F1AFD6E3262EC02F009245C0 /* Icons- Arrows- Previuos white.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A1262EC028009245C0 /* Icons- Arrows- Previuos white.png */; };
+		F1AFD6E4262EC02F009245C0 /* Icons- heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A2262EC029009245C0 /* Icons- heart.png */; };
+		F1AFD6E5262EC02F009245C0 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A3262EC029009245C0 /* Background@2x.png */; };
+		F1AFD6E6262EC02F009245C0 /* Icons- lungs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A4262EC029009245C0 /* Icons- lungs@2x.png */; };
+		F1AFD6E7262EC02F009245C0 /* Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A5262EC029009245C0 /* Image@2x.png */; };
+		F1AFD6E8262EC02F009245C0 /* Image2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A6262EC029009245C0 /* Image2@2x.png */; };
+		F1AFD6E9262EC02F009245C0 /* Star 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A7262EC02A009245C0 /* Star 1.png */; };
+		F1AFD6EA262EC02F009245C0 /* Star 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A8262EC02A009245C0 /* Star 5.png */; };
+		F1AFD6EB262EC02F009245C0 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6A9262EC02A009245C0 /* Background.png */; };
+		F1AFD6EC262EC02F009245C0 /* Icons- brain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AA262EC02A009245C0 /* Icons- brain@3x.png */; };
+		F1AFD6ED262EC02F009245C0 /* Star 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AB262EC02B009245C0 /* Star 1@3x.png */; };
+		F1AFD6EE262EC02F009245C0 /* Icons- heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AC262EC02B009245C0 /* Icons- heart@3x.png */; };
+		F1AFD6EF262EC02F009245C0 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AD262EC02B009245C0 /* Button.png */; };
+		F1AFD6F0262EC02F009245C0 /* Atoms- Icons- Eye Active.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AE262EC02B009245C0 /* Atoms- Icons- Eye Active.png */; };
+		F1AFD6F1262EC02F009245C0 /* Group 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6AF262EC02B009245C0 /* Group 1.png */; };
+		F1AFD6F2262EC02F009245C0 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B0262EC02C009245C0 /* Button@2x.png */; };
+		F1AFD6F3262EC02F009245C0 /* Icons- user@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B1262EC02C009245C0 /* Icons- user@3x.png */; };
+		F1AFD6F4262EC02F009245C0 /* Star 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B2262EC02C009245C0 /* Star 5@2x.png */; };
+		F1AFD6F5262EC02F009245C0 /* Icons- Main App Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B3262EC02C009245C0 /* Icons- Main App Icon.png */; };
+		F1AFD6F6262EC02F009245C0 /* Icons- Arrows- Previuos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B4262EC02C009245C0 /* Icons- Arrows- Previuos@2x.png */; };
+		F1AFD6F7262EC02F009245C0 /* Icons- menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B5262EC02D009245C0 /* Icons- menu.png */; };
+		F1AFD6F8262EC02F009245C0 /* Icons- Arrows- Previuos white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B6262EC02D009245C0 /* Icons- Arrows- Previuos white@2x.png */; };
+		F1AFD6F9262EC02F009245C0 /* Icons- Main App Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B7262EC02D009245C0 /* Icons- Main App Icon@3x.png */; };
+		F1AFD6FA262EC02F009245C0 /* Icons- menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B8262EC02D009245C0 /* Icons- menu@2x.png */; };
+		F1AFD6FB262EC02F009245C0 /* Image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6B9262EC02D009245C0 /* Image@3x.png */; };
+		F1AFD6FC262EC02F009245C0 /* Icons- find@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BA262EC02E009245C0 /* Icons- find@3x.png */; };
+		F1AFD6FD262EC02F009245C0 /* Icons- heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BB262EC02E009245C0 /* Icons- heart@2x.png */; };
+		F1AFD6FE262EC02F009245C0 /* Icons- brain.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BC262EC02E009245C0 /* Icons- brain.png */; };
+		F1AFD6FF262EC02F009245C0 /* Atoms- Icons- Eye Active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BD262EC02E009245C0 /* Atoms- Icons- Eye Active@3x.png */; };
+		F1AFD700262EC02F009245C0 /* Group 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BE262EC02E009245C0 /* Group 1@3x.png */; };
+		F1AFD701262EC02F009245C0 /* Icons- user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6BF262EC02F009245C0 /* Icons- user@2x.png */; };
+		F1AFD702262EC02F009245C0 /* Atoms- Selectors- Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6C0262EC02F009245C0 /* Atoms- Selectors- Selected.png */; };
+		F1AFD703262EC02F009245C0 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6C1262EC02F009245C0 /* Image.png */; };
+		F1AFD704262EC02F009245C0 /* Path.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFD6C2262EC02F009245C0 /* Path.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1AFD621262D72F1009245C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1AFD5FF262D72EF009245C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AFD606262D72EF009245C0;
+			remoteInfo = "Health UX Kit";
+		};
+		F1AFD62C262D72F1009245C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1AFD5FF262D72EF009245C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AFD606262D72EF009245C0;
+			remoteInfo = "Health UX Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AF87FA736E2E2CEB040068 /* Pods-Health UX Kit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health UX Kit.release.xcconfig"; path = "Target Support Files/Pods-Health UX Kit/Pods-Health UX Kit.release.xcconfig"; sourceTree = "<group>"; };
+		0A943CF75D2FF7C2C42101A8 /* Pods-Health UX Kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health UX Kit.debug.xcconfig"; path = "Target Support Files/Pods-Health UX Kit/Pods-Health UX Kit.debug.xcconfig"; sourceTree = "<group>"; };
+		12F9B564DD7759A8A3FAF8D4 /* Pods-Health UX KitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health UX KitTests.debug.xcconfig"; path = "Target Support Files/Pods-Health UX KitTests/Pods-Health UX KitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53F614490D9769591552A371 /* Pods_Health_UX_KitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_UX_KitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C58142CF3EA0CA17C2043D /* Pods-Health UX KitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health UX KitTests.release.xcconfig"; path = "Target Support Files/Pods-Health UX KitTests/Pods-Health UX KitTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B4324AB00B684F697D75FD4 /* Pods_Health_UX_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health_UX_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		F109AD20262EDA8C00666C24 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F1AFD607262D72EF009245C0 /* Health UX Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health UX Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AFD60A262D72EF009245C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1AFD60E262D72EF009245C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1AFD611262D72EF009245C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1AFD614262D72EF009245C0 /* Health_UX_Kit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Health_UX_Kit.xcdatamodel; sourceTree = "<group>"; };
+		F1AFD616262D72F1009245C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1AFD619262D72F1009245C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1AFD61B262D72F1009245C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AFD620262D72F1009245C0 /* Health UX KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health UX KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AFD624262D72F1009245C0 /* Health_UX_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_UX_KitTests.swift; sourceTree = "<group>"; };
+		F1AFD626262D72F1009245C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AFD62B262D72F1009245C0 /* Health UX KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health UX KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AFD62F262D72F1009245C0 /* Health_UX_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_UX_KitUITests.swift; sourceTree = "<group>"; };
+		F1AFD631262D72F1009245C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AFD640262D7518009245C0 /* 69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png"; path = "../../../../Downloads/69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png"; sourceTree = "<group>"; };
+		F1AFD641262D7518009245C0 /* 8521eb25-2cf7-4f50-9400-91238b170db8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8521eb25-2cf7-4f50-9400-91238b170db8.png"; path = "../../../../Downloads/8521eb25-2cf7-4f50-9400-91238b170db8.png"; sourceTree = "<group>"; };
+		F1AFD642262D7518009245C0 /* 556b16c3-f465-4ab8-8711-3384cacb9b8f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "556b16c3-f465-4ab8-8711-3384cacb9b8f.png"; path = "../../../../Downloads/556b16c3-f465-4ab8-8711-3384cacb9b8f.png"; sourceTree = "<group>"; };
+		F1AFD643262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0dccb8d8-a549-47af-a51a-553c38719aa3.png"; path = "../../../../Downloads/0dccb8d8-a549-47af-a51a-553c38719aa3.png"; sourceTree = "<group>"; };
+		F1AFD64B262D7814009245C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F1AFD681262EC022009245C0 /* Doctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doctor@2x.png"; sourceTree = "<group>"; };
+		F1AFD682262EC022009245C0 /* Icons- lab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lab.png"; sourceTree = "<group>"; };
+		F1AFD683262EC022009245C0 /* Icons- Arrows- Previuos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos.png"; sourceTree = "<group>"; };
+		F1AFD684262EC022009245C0 /* Path@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@3x.png"; sourceTree = "<group>"; };
+		F1AFD685262EC023009245C0 /* Avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Avatar.png; sourceTree = "<group>"; };
+		F1AFD686262EC023009245C0 /* Icons- find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- find.png"; sourceTree = "<group>"; };
+		F1AFD687262EC023009245C0 /* Group 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 1@2x.png"; sourceTree = "<group>"; };
+		F1AFD688262EC023009245C0 /* Star 5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 5@3x.png"; sourceTree = "<group>"; };
+		F1AFD689262EC023009245C0 /* Icons- Main App Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Main App Icon@2x.png"; sourceTree = "<group>"; };
+		F1AFD68A262EC024009245C0 /* Image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image2.png; sourceTree = "<group>"; };
+		F1AFD68B262EC024009245C0 /* Icons- Arrows- Previuos@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos@3x.png"; sourceTree = "<group>"; };
+		F1AFD68C262EC024009245C0 /* Doctor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doctor@3x.png"; sourceTree = "<group>"; };
+		F1AFD68D262EC024009245C0 /* Icons- find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- find@2x.png"; sourceTree = "<group>"; };
+		F1AFD68E262EC024009245C0 /* Icons- brain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- brain@2x.png"; sourceTree = "<group>"; };
+		F1AFD68F262EC025009245C0 /* Icons- user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- user.png"; sourceTree = "<group>"; };
+		F1AFD690262EC025009245C0 /* Avatar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avatar@3x.png"; sourceTree = "<group>"; };
+		F1AFD691262EC025009245C0 /* Icons- lungs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lungs@3x.png"; sourceTree = "<group>"; };
+		F1AFD692262EC025009245C0 /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
+		F1AFD693262EC025009245C0 /* Atoms- Selectors- Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Selectors- Selected@2x.png"; sourceTree = "<group>"; };
+		F1AFD694262EC026009245C0 /* Icons- Arrows- Previuos white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos white@3x.png"; sourceTree = "<group>"; };
+		F1AFD695262EC026009245C0 /* Atoms- Selectors- Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Selectors- Selected@3x.png"; sourceTree = "<group>"; };
+		F1AFD696262EC026009245C0 /* Image2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image2@3x.png"; sourceTree = "<group>"; };
+		F1AFD697262EC026009245C0 /* Icons- lab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lab@3x.png"; sourceTree = "<group>"; };
+		F1AFD698262EC027009245C0 /* Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@3x.png"; sourceTree = "<group>"; };
+		F1AFD699262EC027009245C0 /* Avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avatar@2x.png"; sourceTree = "<group>"; };
+		F1AFD69A262EC027009245C0 /* Atoms- Icons- Eye Active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Icons- Eye Active@2x.png"; sourceTree = "<group>"; };
+		F1AFD69B262EC027009245C0 /* Star 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 1@2x.png"; sourceTree = "<group>"; };
+		F1AFD69C262EC027009245C0 /* Path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@2x.png"; sourceTree = "<group>"; };
+		F1AFD69D262EC028009245C0 /* Icons- lab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lab@2x.png"; sourceTree = "<group>"; };
+		F1AFD69E262EC028009245C0 /* Doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor.png; sourceTree = "<group>"; };
+		F1AFD69F262EC028009245C0 /* Icons- menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- menu@3x.png"; sourceTree = "<group>"; };
+		F1AFD6A0262EC028009245C0 /* Icons- lungs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lungs.png"; sourceTree = "<group>"; };
+		F1AFD6A1262EC028009245C0 /* Icons- Arrows- Previuos white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos white.png"; sourceTree = "<group>"; };
+		F1AFD6A2262EC029009245C0 /* Icons- heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- heart.png"; sourceTree = "<group>"; };
+		F1AFD6A3262EC029009245C0 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		F1AFD6A4262EC029009245C0 /* Icons- lungs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- lungs@2x.png"; sourceTree = "<group>"; };
+		F1AFD6A5262EC029009245C0 /* Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image@2x.png"; sourceTree = "<group>"; };
+		F1AFD6A6262EC029009245C0 /* Image2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image2@2x.png"; sourceTree = "<group>"; };
+		F1AFD6A7262EC02A009245C0 /* Star 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 1.png"; sourceTree = "<group>"; };
+		F1AFD6A8262EC02A009245C0 /* Star 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 5.png"; sourceTree = "<group>"; };
+		F1AFD6A9262EC02A009245C0 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		F1AFD6AA262EC02A009245C0 /* Icons- brain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- brain@3x.png"; sourceTree = "<group>"; };
+		F1AFD6AB262EC02B009245C0 /* Star 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 1@3x.png"; sourceTree = "<group>"; };
+		F1AFD6AC262EC02B009245C0 /* Icons- heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- heart@3x.png"; sourceTree = "<group>"; };
+		F1AFD6AD262EC02B009245C0 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		F1AFD6AE262EC02B009245C0 /* Atoms- Icons- Eye Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Icons- Eye Active.png"; sourceTree = "<group>"; };
+		F1AFD6AF262EC02B009245C0 /* Group 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 1.png"; sourceTree = "<group>"; };
+		F1AFD6B0262EC02C009245C0 /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		F1AFD6B1262EC02C009245C0 /* Icons- user@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- user@3x.png"; sourceTree = "<group>"; };
+		F1AFD6B2262EC02C009245C0 /* Star 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 5@2x.png"; sourceTree = "<group>"; };
+		F1AFD6B3262EC02C009245C0 /* Icons- Main App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Main App Icon.png"; sourceTree = "<group>"; };
+		F1AFD6B4262EC02C009245C0 /* Icons- Arrows- Previuos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos@2x.png"; sourceTree = "<group>"; };
+		F1AFD6B5262EC02D009245C0 /* Icons- menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- menu.png"; sourceTree = "<group>"; };
+		F1AFD6B6262EC02D009245C0 /* Icons- Arrows- Previuos white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Arrows- Previuos white@2x.png"; sourceTree = "<group>"; };
+		F1AFD6B7262EC02D009245C0 /* Icons- Main App Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- Main App Icon@3x.png"; sourceTree = "<group>"; };
+		F1AFD6B8262EC02D009245C0 /* Icons- menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- menu@2x.png"; sourceTree = "<group>"; };
+		F1AFD6B9262EC02D009245C0 /* Image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image@3x.png"; sourceTree = "<group>"; };
+		F1AFD6BA262EC02E009245C0 /* Icons- find@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- find@3x.png"; sourceTree = "<group>"; };
+		F1AFD6BB262EC02E009245C0 /* Icons- heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- heart@2x.png"; sourceTree = "<group>"; };
+		F1AFD6BC262EC02E009245C0 /* Icons- brain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- brain.png"; sourceTree = "<group>"; };
+		F1AFD6BD262EC02E009245C0 /* Atoms- Icons- Eye Active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Icons- Eye Active@3x.png"; sourceTree = "<group>"; };
+		F1AFD6BE262EC02E009245C0 /* Group 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 1@3x.png"; sourceTree = "<group>"; };
+		F1AFD6BF262EC02F009245C0 /* Icons- user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icons- user@2x.png"; sourceTree = "<group>"; };
+		F1AFD6C0262EC02F009245C0 /* Atoms- Selectors- Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atoms- Selectors- Selected.png"; sourceTree = "<group>"; };
+		F1AFD6C1262EC02F009245C0 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
+		F1AFD6C2262EC02F009245C0 /* Path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Path.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AFD604262D72EF009245C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CA70A704BE4CCF9D1F9A44 /* Pods_Health_UX_Kit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD61D262D72F1009245C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73AE9F758D1FC45F3663660 /* Pods_Health_UX_KitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD628262D72F1009245C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EF3BBA043C66D8059F8667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4324AB00B684F697D75FD4 /* Pods_Health_UX_Kit.framework */,
+				53F614490D9769591552A371 /* Pods_Health_UX_KitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5C6FE1255ED2B4041E8B04D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A943CF75D2FF7C2C42101A8 /* Pods-Health UX Kit.debug.xcconfig */,
+				03AF87FA736E2E2CEB040068 /* Pods-Health UX Kit.release.xcconfig */,
+				12F9B564DD7759A8A3FAF8D4 /* Pods-Health UX KitTests.debug.xcconfig */,
+				73C58142CF3EA0CA17C2043D /* Pods-Health UX KitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F109AD17262EC9F800666C24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F109AD18262ECA1000666C24 /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1AFD5FE262D72EF009245C0 = {
+			isa = PBXGroup;
+			children = (
+				F1AFD609262D72EF009245C0 /* Health UX Kit */,
+				F1AFD623262D72F1009245C0 /* Health UX KitTests */,
+				F1AFD62E262D72F1009245C0 /* Health UX KitUITests */,
+				F1AFD608262D72EF009245C0 /* Products */,
+				D5C6FE1255ED2B4041E8B04D /* Pods */,
+				54EF3BBA043C66D8059F8667 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AFD608262D72EF009245C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AFD607262D72EF009245C0 /* Health UX Kit.app */,
+				F1AFD620262D72F1009245C0 /* Health UX KitTests.xctest */,
+				F1AFD62B262D72F1009245C0 /* Health UX KitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AFD609262D72EF009245C0 /* Health UX Kit */ = {
+			isa = PBXGroup;
+			children = (
+				F109AD17262EC9F800666C24 /* Extensions */,
+				F1AFD680262EBFEC009245C0 /* assets */,
+				F1AFD643262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png */,
+				F1AFD640262D7518009245C0 /* 69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png */,
+				F1AFD642262D7518009245C0 /* 556b16c3-f465-4ab8-8711-3384cacb9b8f.png */,
+				F1AFD641262D7518009245C0 /* 8521eb25-2cf7-4f50-9400-91238b170db8.png */,
+				F1AFD60A262D72EF009245C0 /* AppDelegate.swift */,
+				F1AFD60C262D72EF009245C0 /* SceneDelegate.swift */,
+				F1AFD60E262D72EF009245C0 /* ViewController.swift */,
+				F1AFD610262D72EF009245C0 /* Main.storyboard */,
+				F1AFD616262D72F1009245C0 /* Assets.xcassets */,
+				F1AFD618262D72F1009245C0 /* LaunchScreen.storyboard */,
+				F1AFD613262D72EF009245C0 /* Health_UX_Kit.xcdatamodeld */,
+				F1AFD61B262D72F1009245C0 /* Info.plist */,
+				F1AFD64B262D7814009245C0 /* LoginViewController.swift */,
+				F109AD20262EDA8C00666C24 /* TabBarViewController.swift */,
+			);
+			path = "Health UX Kit";
+			sourceTree = "<group>";
+		};
+		F1AFD623262D72F1009245C0 /* Health UX KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AFD624262D72F1009245C0 /* Health_UX_KitTests.swift */,
+				F1AFD626262D72F1009245C0 /* Info.plist */,
+			);
+			path = "Health UX KitTests";
+			sourceTree = "<group>";
+		};
+		F1AFD62E262D72F1009245C0 /* Health UX KitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AFD62F262D72F1009245C0 /* Health_UX_KitUITests.swift */,
+				F1AFD631262D72F1009245C0 /* Info.plist */,
+			);
+			path = "Health UX KitUITests";
+			sourceTree = "<group>";
+		};
+		F1AFD680262EBFEC009245C0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1AFD6AE262EC02B009245C0 /* Atoms- Icons- Eye Active.png */,
+				F1AFD69A262EC027009245C0 /* Atoms- Icons- Eye Active@2x.png */,
+				F1AFD6BD262EC02E009245C0 /* Atoms- Icons- Eye Active@3x.png */,
+				F1AFD6C0262EC02F009245C0 /* Atoms- Selectors- Selected.png */,
+				F1AFD693262EC025009245C0 /* Atoms- Selectors- Selected@2x.png */,
+				F1AFD695262EC026009245C0 /* Atoms- Selectors- Selected@3x.png */,
+				F1AFD685262EC023009245C0 /* Avatar.png */,
+				F1AFD699262EC027009245C0 /* Avatar@2x.png */,
+				F1AFD690262EC025009245C0 /* Avatar@3x.png */,
+				F1AFD6A9262EC02A009245C0 /* Background.png */,
+				F1AFD6A3262EC029009245C0 /* Background@2x.png */,
+				F1AFD692262EC025009245C0 /* Background@3x.png */,
+				F1AFD6AD262EC02B009245C0 /* Button.png */,
+				F1AFD6B0262EC02C009245C0 /* Button@2x.png */,
+				F1AFD698262EC027009245C0 /* Button@3x.png */,
+				F1AFD69E262EC028009245C0 /* Doctor.png */,
+				F1AFD681262EC022009245C0 /* Doctor@2x.png */,
+				F1AFD68C262EC024009245C0 /* Doctor@3x.png */,
+				F1AFD6AF262EC02B009245C0 /* Group 1.png */,
+				F1AFD687262EC023009245C0 /* Group 1@2x.png */,
+				F1AFD6BE262EC02E009245C0 /* Group 1@3x.png */,
+				F1AFD6A1262EC028009245C0 /* Icons- Arrows- Previuos white.png */,
+				F1AFD6B6262EC02D009245C0 /* Icons- Arrows- Previuos white@2x.png */,
+				F1AFD694262EC026009245C0 /* Icons- Arrows- Previuos white@3x.png */,
+				F1AFD683262EC022009245C0 /* Icons- Arrows- Previuos.png */,
+				F1AFD6B4262EC02C009245C0 /* Icons- Arrows- Previuos@2x.png */,
+				F1AFD68B262EC024009245C0 /* Icons- Arrows- Previuos@3x.png */,
+				F1AFD6BC262EC02E009245C0 /* Icons- brain.png */,
+				F1AFD68E262EC024009245C0 /* Icons- brain@2x.png */,
+				F1AFD6AA262EC02A009245C0 /* Icons- brain@3x.png */,
+				F1AFD686262EC023009245C0 /* Icons- find.png */,
+				F1AFD68D262EC024009245C0 /* Icons- find@2x.png */,
+				F1AFD6BA262EC02E009245C0 /* Icons- find@3x.png */,
+				F1AFD6A2262EC029009245C0 /* Icons- heart.png */,
+				F1AFD6BB262EC02E009245C0 /* Icons- heart@2x.png */,
+				F1AFD6AC262EC02B009245C0 /* Icons- heart@3x.png */,
+				F1AFD682262EC022009245C0 /* Icons- lab.png */,
+				F1AFD69D262EC028009245C0 /* Icons- lab@2x.png */,
+				F1AFD697262EC026009245C0 /* Icons- lab@3x.png */,
+				F1AFD6A0262EC028009245C0 /* Icons- lungs.png */,
+				F1AFD6A4262EC029009245C0 /* Icons- lungs@2x.png */,
+				F1AFD691262EC025009245C0 /* Icons- lungs@3x.png */,
+				F1AFD6B3262EC02C009245C0 /* Icons- Main App Icon.png */,
+				F1AFD689262EC023009245C0 /* Icons- Main App Icon@2x.png */,
+				F1AFD6B7262EC02D009245C0 /* Icons- Main App Icon@3x.png */,
+				F1AFD6B5262EC02D009245C0 /* Icons- menu.png */,
+				F1AFD6B8262EC02D009245C0 /* Icons- menu@2x.png */,
+				F1AFD69F262EC028009245C0 /* Icons- menu@3x.png */,
+				F1AFD68F262EC025009245C0 /* Icons- user.png */,
+				F1AFD6BF262EC02F009245C0 /* Icons- user@2x.png */,
+				F1AFD6B1262EC02C009245C0 /* Icons- user@3x.png */,
+				F1AFD6C1262EC02F009245C0 /* Image.png */,
+				F1AFD6A5262EC029009245C0 /* Image@2x.png */,
+				F1AFD6B9262EC02D009245C0 /* Image@3x.png */,
+				F1AFD68A262EC024009245C0 /* Image2.png */,
+				F1AFD6A6262EC029009245C0 /* Image2@2x.png */,
+				F1AFD696262EC026009245C0 /* Image2@3x.png */,
+				F1AFD6C2262EC02F009245C0 /* Path.png */,
+				F1AFD69C262EC027009245C0 /* Path@2x.png */,
+				F1AFD684262EC022009245C0 /* Path@3x.png */,
+				F1AFD6A7262EC02A009245C0 /* Star 1.png */,
+				F1AFD69B262EC027009245C0 /* Star 1@2x.png */,
+				F1AFD6AB262EC02B009245C0 /* Star 1@3x.png */,
+				F1AFD6A8262EC02A009245C0 /* Star 5.png */,
+				F1AFD6B2262EC02C009245C0 /* Star 5@2x.png */,
+				F1AFD688262EC023009245C0 /* Star 5@3x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AFD606262D72EF009245C0 /* Health UX Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AFD634262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX Kit" */;
+			buildPhases = (
+				D9951C8C4DEED7D060B162BB /* [CP] Check Pods Manifest.lock */,
+				F1AFD603262D72EF009245C0 /* Sources */,
+				F1AFD604262D72EF009245C0 /* Frameworks */,
+				F1AFD605262D72EF009245C0 /* Resources */,
+				8B01900077ECF16C6BDF8975 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health UX Kit";
+			productName = "Health UX Kit";
+			productReference = F1AFD607262D72EF009245C0 /* Health UX Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1AFD61F262D72F1009245C0 /* Health UX KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AFD637262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX KitTests" */;
+			buildPhases = (
+				B68839C6179BF9CA734DDE61 /* [CP] Check Pods Manifest.lock */,
+				F1AFD61C262D72F1009245C0 /* Sources */,
+				F1AFD61D262D72F1009245C0 /* Frameworks */,
+				F1AFD61E262D72F1009245C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AFD622262D72F1009245C0 /* PBXTargetDependency */,
+			);
+			name = "Health UX KitTests";
+			productName = "Health UX KitTests";
+			productReference = F1AFD620262D72F1009245C0 /* Health UX KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1AFD62A262D72F1009245C0 /* Health UX KitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AFD63A262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX KitUITests" */;
+			buildPhases = (
+				F1AFD627262D72F1009245C0 /* Sources */,
+				F1AFD628262D72F1009245C0 /* Frameworks */,
+				F1AFD629262D72F1009245C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AFD62D262D72F1009245C0 /* PBXTargetDependency */,
+			);
+			name = "Health UX KitUITests";
+			productName = "Health UX KitUITests";
+			productReference = F1AFD62B262D72F1009245C0 /* Health UX KitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AFD5FF262D72EF009245C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F1AFD606262D72EF009245C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F1AFD61F262D72F1009245C0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1AFD606262D72EF009245C0;
+					};
+					F1AFD62A262D72F1009245C0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1AFD606262D72EF009245C0;
+					};
+				};
+			};
+			buildConfigurationList = F1AFD602262D72EF009245C0 /* Build configuration list for PBXProject "Health UX Kit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1AFD5FE262D72EF009245C0;
+			productRefGroup = F1AFD608262D72EF009245C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AFD606262D72EF009245C0 /* Health UX Kit */,
+				F1AFD61F262D72F1009245C0 /* Health UX KitTests */,
+				F1AFD62A262D72F1009245C0 /* Health UX KitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AFD605262D72EF009245C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AFD6F3262EC02F009245C0 /* Icons- user@3x.png in Resources */,
+				F1AFD6FE262EC02F009245C0 /* Icons- brain.png in Resources */,
+				F1AFD6D2262EC02F009245C0 /* Avatar@3x.png in Resources */,
+				F1AFD6EF262EC02F009245C0 /* Button.png in Resources */,
+				F1AFD6FD262EC02F009245C0 /* Icons- heart@2x.png in Resources */,
+				F1AFD6CB262EC02F009245C0 /* Icons- Main App Icon@2x.png in Resources */,
+				F1AFD6E4262EC02F009245C0 /* Icons- heart.png in Resources */,
+				F1AFD6E3262EC02F009245C0 /* Icons- Arrows- Previuos white.png in Resources */,
+				F1AFD6DE262EC02F009245C0 /* Path@2x.png in Resources */,
+				F1AFD6F1262EC02F009245C0 /* Group 1.png in Resources */,
+				F1AFD61A262D72F1009245C0 /* LaunchScreen.storyboard in Resources */,
+				F1AFD6D9262EC02F009245C0 /* Icons- lab@3x.png in Resources */,
+				F1AFD6D5262EC02F009245C0 /* Atoms- Selectors- Selected@2x.png in Resources */,
+				F1AFD6DF262EC02F009245C0 /* Icons- lab@2x.png in Resources */,
+				F1AFD6D6262EC02F009245C0 /* Icons- Arrows- Previuos white@3x.png in Resources */,
+				F1AFD703262EC02F009245C0 /* Image.png in Resources */,
+				F1AFD6FB262EC02F009245C0 /* Image@3x.png in Resources */,
+				F1AFD6D4262EC02F009245C0 /* Background@3x.png in Resources */,
+				F1AFD6D1262EC02F009245C0 /* Icons- user.png in Resources */,
+				F1AFD6F9262EC02F009245C0 /* Icons- Main App Icon@3x.png in Resources */,
+				F1AFD6E9262EC02F009245C0 /* Star 1.png in Resources */,
+				F1AFD6C8262EC02F009245C0 /* Icons- find.png in Resources */,
+				F1AFD6DB262EC02F009245C0 /* Avatar@2x.png in Resources */,
+				F1AFD6CD262EC02F009245C0 /* Icons- Arrows- Previuos@3x.png in Resources */,
+				F1AFD6C5262EC02F009245C0 /* Icons- Arrows- Previuos.png in Resources */,
+				F1AFD6C4262EC02F009245C0 /* Icons- lab.png in Resources */,
+				F1AFD647262D7518009245C0 /* 0dccb8d8-a549-47af-a51a-553c38719aa3.png in Resources */,
+				F1AFD6E2262EC02F009245C0 /* Icons- lungs.png in Resources */,
+				F1AFD6F4262EC02F009245C0 /* Star 5@2x.png in Resources */,
+				F1AFD6DC262EC02F009245C0 /* Atoms- Icons- Eye Active@2x.png in Resources */,
+				F1AFD6DD262EC02F009245C0 /* Star 1@2x.png in Resources */,
+				F1AFD6ED262EC02F009245C0 /* Star 1@3x.png in Resources */,
+				F1AFD6F8262EC02F009245C0 /* Icons- Arrows- Previuos white@2x.png in Resources */,
+				F1AFD6F5262EC02F009245C0 /* Icons- Main App Icon.png in Resources */,
+				F1AFD6CE262EC02F009245C0 /* Doctor@3x.png in Resources */,
+				F1AFD6FF262EC02F009245C0 /* Atoms- Icons- Eye Active@3x.png in Resources */,
+				F1AFD700262EC02F009245C0 /* Group 1@3x.png in Resources */,
+				F1AFD6CA262EC02F009245C0 /* Star 5@3x.png in Resources */,
+				F1AFD6D8262EC02F009245C0 /* Image2@3x.png in Resources */,
+				F1AFD6F0262EC02F009245C0 /* Atoms- Icons- Eye Active.png in Resources */,
+				F1AFD6F7262EC02F009245C0 /* Icons- menu.png in Resources */,
+				F1AFD6E6262EC02F009245C0 /* Icons- lungs@2x.png in Resources */,
+				F1AFD6D7262EC02F009245C0 /* Atoms- Selectors- Selected@3x.png in Resources */,
+				F1AFD6D3262EC02F009245C0 /* Icons- lungs@3x.png in Resources */,
+				F1AFD702262EC02F009245C0 /* Atoms- Selectors- Selected.png in Resources */,
+				F1AFD6E8262EC02F009245C0 /* Image2@2x.png in Resources */,
+				F1AFD6C7262EC02F009245C0 /* Avatar.png in Resources */,
+				F1AFD6E7262EC02F009245C0 /* Image@2x.png in Resources */,
+				F1AFD6E1262EC02F009245C0 /* Icons- menu@3x.png in Resources */,
+				F1AFD6EE262EC02F009245C0 /* Icons- heart@3x.png in Resources */,
+				F1AFD6D0262EC02F009245C0 /* Icons- brain@2x.png in Resources */,
+				F1AFD6EB262EC02F009245C0 /* Background.png in Resources */,
+				F1AFD617262D72F1009245C0 /* Assets.xcassets in Resources */,
+				F1AFD645262D7518009245C0 /* 8521eb25-2cf7-4f50-9400-91238b170db8.png in Resources */,
+				F1AFD6F2262EC02F009245C0 /* Button@2x.png in Resources */,
+				F1AFD6FA262EC02F009245C0 /* Icons- menu@2x.png in Resources */,
+				F1AFD644262D7518009245C0 /* 69f9e2a8-efa0-4034-b3ab-7ba4139f7ffb.png in Resources */,
+				F1AFD6C6262EC02F009245C0 /* Path@3x.png in Resources */,
+				F1AFD6FC262EC02F009245C0 /* Icons- find@3x.png in Resources */,
+				F1AFD701262EC02F009245C0 /* Icons- user@2x.png in Resources */,
+				F1AFD6C3262EC02F009245C0 /* Doctor@2x.png in Resources */,
+				F1AFD612262D72EF009245C0 /* Main.storyboard in Resources */,
+				F1AFD6CC262EC02F009245C0 /* Image2.png in Resources */,
+				F1AFD6E5262EC02F009245C0 /* Background@2x.png in Resources */,
+				F1AFD6DA262EC02F009245C0 /* Button@3x.png in Resources */,
+				F1AFD6CF262EC02F009245C0 /* Icons- find@2x.png in Resources */,
+				F1AFD6E0262EC02F009245C0 /* Doctor.png in Resources */,
+				F1AFD646262D7518009245C0 /* 556b16c3-f465-4ab8-8711-3384cacb9b8f.png in Resources */,
+				F1AFD704262EC02F009245C0 /* Path.png in Resources */,
+				F1AFD6C9262EC02F009245C0 /* Group 1@2x.png in Resources */,
+				F1AFD6EC262EC02F009245C0 /* Icons- brain@3x.png in Resources */,
+				F1AFD6F6262EC02F009245C0 /* Icons- Arrows- Previuos@2x.png in Resources */,
+				F1AFD6EA262EC02F009245C0 /* Star 5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD61E262D72F1009245C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD629262D72F1009245C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B01900077ECF16C6BDF8975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health UX Kit/Pods-Health UX Kit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Health UX Kit/Pods-Health UX Kit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Health UX Kit/Pods-Health UX Kit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68839C6179BF9CA734DDE61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health UX KitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9951C8C4DEED7D060B162BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Health UX Kit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AFD603262D72EF009245C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AFD60F262D72EF009245C0 /* ViewController.swift in Sources */,
+				F1AFD60B262D72EF009245C0 /* AppDelegate.swift in Sources */,
+				F1AFD60D262D72EF009245C0 /* SceneDelegate.swift in Sources */,
+				F109AD19262ECA1000666C24 /* UITextField+Extensions.swift in Sources */,
+				F109AD21262EDA8C00666C24 /* TabBarViewController.swift in Sources */,
+				F1AFD64C262D7814009245C0 /* LoginViewController.swift in Sources */,
+				F1AFD615262D72EF009245C0 /* Health_UX_Kit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD61C262D72F1009245C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AFD625262D72F1009245C0 /* Health_UX_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFD627262D72F1009245C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AFD630262D72F1009245C0 /* Health_UX_KitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1AFD622262D72F1009245C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1AFD606262D72EF009245C0 /* Health UX Kit */;
+			targetProxy = F1AFD621262D72F1009245C0 /* PBXContainerItemProxy */;
+		};
+		F1AFD62D262D72F1009245C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1AFD606262D72EF009245C0 /* Health UX Kit */;
+			targetProxy = F1AFD62C262D72F1009245C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1AFD610262D72EF009245C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AFD611262D72EF009245C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1AFD618262D72F1009245C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AFD619262D72F1009245C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AFD632262D72F1009245C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1AFD633262D72F1009245C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AFD635262D72F1009245C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A943CF75D2FF7C2C42101A8 /* Pods-Health UX Kit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1AFD636262D72F1009245C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AF87FA736E2E2CEB040068 /* Pods-Health UX Kit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1AFD638262D72F1009245C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F9B564DD7759A8A3FAF8D4 /* Pods-Health UX KitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX KitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health UX Kit.app/Health UX Kit";
+			};
+			name = Debug;
+		};
+		F1AFD639262D72F1009245C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C58142CF3EA0CA17C2043D /* Pods-Health UX KitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX KitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health UX Kit.app/Health UX Kit";
+			};
+			name = Release;
+		};
+		F1AFD63B262D72F1009245C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health UX Kit";
+			};
+			name = Debug;
+		};
+		F1AFD63C262D72F1009245C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Health UX KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanenguero.Health-UX-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health UX Kit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AFD602262D72EF009245C0 /* Build configuration list for PBXProject "Health UX Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AFD632262D72F1009245C0 /* Debug */,
+				F1AFD633262D72F1009245C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AFD634262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AFD635262D72F1009245C0 /* Debug */,
+				F1AFD636262D72F1009245C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AFD637262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AFD638262D72F1009245C0 /* Debug */,
+				F1AFD639262D72F1009245C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AFD63A262D72F1009245C0 /* Build configuration list for PBXNativeTarget "Health UX KitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AFD63B262D72F1009245C0 /* Debug */,
+				F1AFD63C262D72F1009245C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1AFD613262D72EF009245C0 /* Health_UX_Kit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1AFD614262D72EF009245C0 /* Health_UX_Kit.xcdatamodel */,
+			);
+			currentVersion = F1AFD614262D72EF009245C0 /* Health_UX_Kit.xcdatamodel */;
+			path = Health_UX_Kit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1AFD5FF262D72EF009245C0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module iOSCommonUI {
+  umbrella header "iOSCommonUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
